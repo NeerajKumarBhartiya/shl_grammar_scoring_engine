@@ -1,0 +1,18 @@
+# Competition data and anything derived from it must never be committed (competition rules §4)
+*.wav
+*.npy
+*.npz
+train.csv
+test.csv
+sample_submission.csv
+outputs/
+transcripts/
+features/
+embeddings/
+oof/
+test_feedback.csv
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
